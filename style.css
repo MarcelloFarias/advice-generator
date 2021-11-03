@@ -45,3 +45,17 @@ main {
     color: #F8F8F8;
     cursor: pointer;
 }
+
+@media (max-width: 650px) {
+    .container {
+        width: 100%;
+    }
+
+    .advice {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+}
